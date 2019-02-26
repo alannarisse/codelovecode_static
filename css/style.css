@@ -1,0 +1,58 @@
+body, * {
+	background-color:#000;
+	font-family: helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, p, li, div, section, a { 
+	color: white;
+}
+
+header {
+}
+header h1 { margin-bottom: 0; }
+header h2 { margin-top: 0; }
+h2 {
+	margin-top: 60px;
+	text-align: center;
+	color: #fff;
+}
+
+h1, h2, h3, caption {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.cta { 
+	text-align: center;
+	margin-top: 60px;
+ }
+main {
+	width: 90%;
+	margin: 20px auto;
+}
+
+section {
+	width: 560px;
+	display: block;
+	color: white;
+	margin: auto;
+}
+
+
+section iframe {	
+	text-align:center;
+	margin: 30px auto 0 auto;
+}
+section p {
+	text-align: center;
+
+}
