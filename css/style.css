@@ -6,7 +6,11 @@ body{
 h1, h2, h3, h4, h5, p, li, div, section, a { 
 	color: white;
 }
-
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
 .form main {
     background-color: white;
     height: 60vh;
@@ -61,7 +65,7 @@ main {
 }
 
 section {
-	width: 560px;
+	width: 80%;
 	display: block;
 	color: white;
 	margin: auto;
@@ -76,6 +80,12 @@ section p {
 	text-align: center;
 
 }
+.gallery ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.gallery img {width:100%;}
 
 /* hamburger nav */
 /* START of Mobile Menu */
